@@ -1,0 +1,52 @@
+<h2>Shapes</h2>
+
+<div appButton [shape]="ButtonShape.SQUARED">Squared</div>
+
+<div appButton [shape]="ButtonShape.ROUNDED" [color]="ButtonColor.SUCCESS">
+  Rounded
+</div>
+
+<div appButton [shape]="ButtonShape.PILLED" [color]="ButtonColor.INFO">
+  Pilled
+</div>
+
+<h2 style="margin-top: 2rem">Colors</h2>
+
+<div appButton [color]="ButtonColor.DEFAULT">Default</div>
+
+<div appButton [color]="ButtonColor.PRIMARY">Primary</div>
+
+<div appButton [color]="ButtonColor.SECONDARY">Secondary</div>
+
+<div appButton [color]="ButtonColor.SUCCESS">Success</div>
+
+<div appButton [color]="ButtonColor.INFO">Info</div>
+
+<div appButton [color]="ButtonColor.WARNING">Warning</div>
+
+<div appButton [color]="ButtonColor.DANGER">Danger</div>
+
+<h2 style="margin-top: 2rem">Styles</h2>
+
+<div appButton [color]="ButtonColor.INFO" [style]="ButtonStyle.SOLID">
+  Solid
+</div>
+
+<div
+  appButton
+  [color]="ButtonColor.INFO"
+  [style]="ButtonStyle.OUTLINED"
+  [size]="ButtonSize.MEDIUM"
+>
+  Outlined
+</div>
+
+<h2 style="margin-top: 2rem">Sizes</h2>
+
+<div appButton [size]="ButtonSize.LARGE">Large</div>
+
+<div appButton [color]="ButtonColor.SUCCESS" [size]="ButtonSize.MEDIUM">
+  Medium
+</div>
+
+<div appButton [color]="ButtonColor.INFO" [size]="ButtonSize.SMALL">Small</div>
